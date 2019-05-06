@@ -1,4 +1,4 @@
-global.module = module => {
+global._module = module => {
     if (/^[a-z]+::[\w]+/.test(module)) {
         // required vendor module
         const arr_data = module.match(/(^[a-z]+)::([\w\W\d\D]+)$/)
