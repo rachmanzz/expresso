@@ -1,8 +1,10 @@
 const express = require('express')
 const bodyparser = require('body-parser')
 const cors = require('cors')
+
 require('./vendor')
 
+const router = _module('app::router')
 
 // start
 const app = express()
@@ -14,6 +16,8 @@ app.use(bodyparser.json())
 app.use(bodyparser.urlencoded({ extended: true }))
 
 // after body parse
+// load router
+app.use('/', router)
 
 
 const port = process.env.PORT || 5000
