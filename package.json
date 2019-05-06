@@ -6,6 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "express": "^4.16.4",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "knex": "^0.16.5"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rachmanzz/expresso.git"
