@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/rachmanzz/expresso/issues"
   },
-  "homepage": "https://github.com/rachmanzz/expresso#readme"
+  "homepage": "https://github.com/rachmanzz/expresso#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
 }
