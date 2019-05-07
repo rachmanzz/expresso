@@ -45,4 +45,4 @@ app.prototype.delete = (path, arg, arg2) => {
     else console.warn('invalid method argument')
 }
 
-module.exports = { router, app }
+module.exports = { router, app: new app() }
